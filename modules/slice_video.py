@@ -24,7 +24,7 @@ def slice_vid(**kwargs):
     # vFps = video.get(int(cv2.CAP_PROP_FPS))
     
     frame_counter = 1
-    video.set(1, vLeng)
+    # video.set(1, vLeng)
     watch, vFrame = video.read()
     frame = kwargs["fps"]
 
@@ -49,6 +49,7 @@ def slice_vid(**kwargs):
             frame_counter = frame_counter + 1
 
         # release video for the last of picture, because that weak cpu
+
 
 def option(args):
     if args.path is None and args.usage is None:

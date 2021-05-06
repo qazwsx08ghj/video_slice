@@ -1,5 +1,5 @@
 from modules.argument import return_argument
-from modules.slice_video import option, BASE_DIR
+from modules.slice_video import option
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
